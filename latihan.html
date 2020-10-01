@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h2>HTML Forms</h2>
+ <body background="t.jpg">
+<h2>FROM REGISTRASI</h2>
 
 <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-      <label>Jenis Kelamin:</label>
-      <input type="radio" name="jk" value="Laki-laki"/> Laki-laki</label>
-      <input type="radio" name="jk" value="Perempuan"/> Perempuan</label>
-  </p>
+  <label for="fname">Nama Depan:</label>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <p>
+  <label for="lname">Nama Belakang:</label>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label>Agama:</label>
+      <select name="Agama">
+      <option value="Agama" value="Islam"> Islam</option>
+      <option value="Agama" value="Kristen"> Kristen</option>
+      <option value="Agama" value="Hindu">Hindu</option>
+      <option value="Agama" value="Budha">Budha</option>
+      <option value="Agama" value="Katholik">Katholik</option>
+      <option value="Agama" value="Konghucu">Konghucu</option>
+</select>
+  <p>
+    <label for="nomor">No.Hp:</label>
+    <input type="text" id="nomor" name="nomor" value=""><br>
+    </p>
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" name="jk" value="Laki-laki"/> Laki-laki</label><br>
+      <input type="radio" name="jk" value="Perempuan"/> Perempuan</label><br>
+      <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value=""><br><br>
+      
   <input type="submit" value="Submit">
 </form> 
 
