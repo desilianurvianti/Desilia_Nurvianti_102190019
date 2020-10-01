@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
  <body background="t.jpg">
-<h2>FROM REGISTRASI</h2>
-
-<form action="/action_page.php">
-  <label for="fname">Nama Depan:</label>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <p>
-  <label for="lname">Nama Belakang:</label>
-  <input type="text" id="lname" name="lname" value=""><br><br>
+<form action="contact.php" method="POST">
+  <fieldset>
+    <legend>REGISTRASI</legend><br>
+    <label>Nama lengkap:</label>
+    <input type="text" name="nama" value="" /><p>
   <label>Agama:</label>
       <select name="Agama">
+      <option value="Agama" value=""></option>
       <option value="Agama" value="Islam"> Islam</option>
       <option value="Agama" value="Kristen"> Kristen</option>
       <option value="Agama" value="Hindu">Hindu</option>
@@ -20,7 +18,7 @@
       <option value="Agama" value="Konghucu">Konghucu</option>
 </select>
   <p>
-    <label for="nomor">No.Hp:</label>
+    <label> for="nomor">No.Hp:</label>
     <input type="text" id="nomor" name="nomor" value=""><br>
     </p>
       <label>Jenis Kelamin:</label><br>
