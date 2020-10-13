@@ -1,0 +1,54 @@
+
+#batas{
+    height: auto;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#header{
+    width: 1000px;
+    height: auto;
+    border: 1px solid #000;
+    text-align: center; 
+    border-radius: 5px 5px; 
+}
+
+#menu{
+    width: 1000px;
+    height: auto;
+    border: 1px solid red;
+    text-align: center;  
+    border-radius: 5px 5px; 
+    margin-top: 5px;
+}
+
+#isi{
+    width: 1000px;
+    height: 300px;
+    border: 1px solid yellow;
+    text-align: center; 
+    margin-top: 5px;
+} 
+
+#left-content{
+    width: 35%;
+    height: 100%;
+    border: 1px solid yellow;
+    float: left;
+}
+
+#right-content{
+    width: 63%;
+    height: 100%;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 16px;
+}
+#footer{
+    width: 1000px;
+    height: auto;
+    border: 1px solid #000;
+    text-align: center; 
+    border-radius: 5px 5px; 
+    margin-top: 307px;
+}
